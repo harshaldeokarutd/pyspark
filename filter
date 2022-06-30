@@ -1,0 +1,17 @@
+from pyspark import SparkContext, SparkConf
+
+conf = SparkConf().setAppName("pysparktest").setMaster("local[*]")
+sc = SparkContext(conf=conf)
+
+data = ["Project", "Gutenberg's", "Alice's", "Adventures",
+        "in", "Wonderland", "Project", "Gutenberg's", "Adventures",
+        "in", "Wonderland", "Project", "Gutenberg's"]
+
+rdd = sc.parallelize(data)
+
+rdd2 = rdd.map(lambda x: (x, 1))
+rdd3 = rdd2.reduceByKey(lambda a, b: a + b)
+rdd4 = rdd3.map(lambda x: (x[1], x[0])).sortByKey()
+rdd5 = rdd4.filter(lambda x : 'a' in x[1])
+for element in rdd5.collect():
+    print(element)
