@@ -1,19 +1,14 @@
 from pyspark import SparkContext, SparkConf
+
 conf = SparkConf().setAppName("pysparktest").setMaster("local[*]")
 sc = SparkContext(conf=conf)
 
-df = sc.textFile("")
+data = ["Project", "Gutenberg's", "Alice's", "Adventures",
+        "in", "Wonderland", "Project", "Gutenberg's", "Adventures",
+        "in", "Wonderland", "Project", "Gutenberg's"]
 
-from pyspark.sql import SparkSession
-spark = SparkSession.builder.master("local[1]") \
-    .appName("SparkByExamples.com").getOrCreate()
+rdd = sc.parallelize(data)
 
-data = ["Project","Gutenberg's","Alice's","Adventures",
-"in","Wonderland","Project","Gutenberg's","Adventures",
-"in","Wonderland","Project","Gutenberg's"]
-
-rdd=spark.sparkContext.parallelize(data)
-
-rdd2=rdd.map(lambda x: (x,1))
+rdd2 = rdd.map(lambda x: (x, 1))
 for element in rdd2.collect():
     print(element)
