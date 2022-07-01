@@ -19,3 +19,27 @@ List of some of the Pyspark Transformations and actions:
 5. reduceByKey :
 
 <img width="492" alt="reduceByKey" src="https://user-images.githubusercontent.com/92963066/176975220-6f3394f4-6f87-43ab-b5b2-f5f6e9a90ea2.png">
+
+6. sortByKey :
+
+<img width="403" alt="sortByKey" src="https://user-images.githubusercontent.com/92963066/176975413-a5f055bf-888a-44a9-bd99-e72c0195940d.png">
+
+7. Union :
+
+<img width="291" alt="union" src="https://user-images.githubusercontent.com/92963066/176975599-e34ac5d6-f025-457b-982d-81099fba9c32.png">
+
+8. Intersection :
+
+<img width="198" alt="intersection" src="https://user-images.githubusercontent.com/92963066/176975729-104d1f0b-e422-43ae-8962-793e25e1d26d.png">
+
+9. mapPartitions :
+
+<img width="383" alt="mapPartitions" src="https://user-images.githubusercontent.com/92963066/176975886-2657f058-fec7-4f14-a021-8360eb117fa6.png">
+
+10. distinct :
+
+<img width="305" alt="distinct" src="https://user-images.githubusercontent.com/92963066/176976038-744245fd-077d-4090-bff7-929fb5482381.png">
+
+
+
+
