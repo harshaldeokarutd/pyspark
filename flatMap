@@ -1,0 +1,10 @@
+from pyspark import SparkContext, SparkConf
+
+conf = SparkConf().setAppName("pysparktest").setMaster("local[*]")
+sc = SparkContext(conf=conf)
+
+data = ["Project Gutenberg's", "Alice's Adventures in Wonderland", "Project Gutenberg's", "Adventures in Wonderland", "Project Gutenberg's"]
+rdd = sc.parallelize(data)
+rdd2 = rdd.flatMap(lambda f: f.split(" "))
+for element in rdd2.collect():
+    print(element)
