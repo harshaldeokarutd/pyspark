@@ -1,0 +1,21 @@
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.master("local[1]") \
+    .appName('SparkByExamples.com') \
+    .getOrCreate()
+data = [('James', 'Smith', 'M', 3000),
+        ('Anna', 'Rose', 'F', 4100),
+        ('Robert', 'Williams', 'M', 6200),
+        ]
+
+columns = ["firstname", "lastname", "gender", "salary"]
+df = spark.createDataFrame(data=data, schema=columns)
+
+
+def reformat(partitionData):
+    for row in partitionData:
+        yield [row.firstname + "," + row.lastname, row.salary * 10 / 100]
+
+
+df2 = df.rdd.mapPartitions(reformat).toDF(["name", "bonus"])
+df2.show()
