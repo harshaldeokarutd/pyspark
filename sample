@@ -1,0 +1,10 @@
+from pyspark.sql import SparkSession
+
+
+spark = SparkSession.builder.master("local[1]") \
+    .appName('SparkByExamples.com') \
+    .getOrCreate()
+
+rdd = spark.sparkContext.parallelize(range(100), 4)
+var = 6 <= rdd.sample(False, 0.1, 81).count() <= 14
+print(var)
