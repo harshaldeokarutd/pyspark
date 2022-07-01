@@ -12,3 +12,7 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="457" alt="filter" src="https://user-images.githubusercontent.com/92963066/176974606-74e93681-5eae-481b-a82c-a18b87ac3225.png">
 
+4. groupByKey :
+
+<img width="415" alt="groupBykey" src="https://user-images.githubusercontent.com/92963066/176975069-5e08b567-fb17-4372-9f61-5e3501c7ba0e.png">
+
