@@ -16,3 +16,6 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="415" alt="groupBykey" src="https://user-images.githubusercontent.com/92963066/176975069-5e08b567-fb17-4372-9f61-5e3501c7ba0e.png">
 
+5. reduceByKey :
+
+<img width="492" alt="reduceByKey" src="https://user-images.githubusercontent.com/92963066/176975220-6f3394f4-6f87-43ab-b5b2-f5f6e9a90ea2.png">
