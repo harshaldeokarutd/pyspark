@@ -1,0 +1,10 @@
+from pyspark import SparkContext, SparkConf, rdd, rddsampler, RDD
+
+conf = SparkConf().setAppName("pysparktest").setMaster("local[*]")
+sc = SparkContext(conf=conf)
+
+rdd1 = [(1,"jan",2016),(1,"jan",2016)]
+
+rdd2 = sc.parallelize(rdd1)
+
+print(rdd2.distinct().collect())
