@@ -40,6 +40,13 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="305" alt="distinct" src="https://user-images.githubusercontent.com/92963066/176976038-744245fd-077d-4090-bff7-929fb5482381.png">
 
+11. repartition :
+
+<img width="61" alt="repartition" src="https://user-images.githubusercontent.com/92963066/176976279-eeba8290-49f7-4cbd-87da-a870b1d09878.png">
+
+12. sample :
+
+<img width="147" alt="sample" src="https://user-images.githubusercontent.com/92963066/176976406-d1a0ff7e-dbe9-4743-abaf-99b4ca6ef92f.png">
 
 
 
