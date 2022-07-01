@@ -8,4 +8,7 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="297" alt="flatMap" src="https://user-images.githubusercontent.com/92963066/176974260-159dae4c-da9e-4822-bed5-15c152b2f40b.png">
 
-3. 
+3. Filter :
+
+<img width="457" alt="filter" src="https://user-images.githubusercontent.com/92963066/176974606-74e93681-5eae-481b-a82c-a18b87ac3225.png">
+
