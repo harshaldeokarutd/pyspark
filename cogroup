@@ -1,0 +1,10 @@
+from pyspark.sql import SparkSession
+
+
+spark = SparkSession.builder.master("local[1]") \
+    .appName('SparkByExamples.com') \
+    .getOrCreate()
+
+x = spark.sparkContext.parallelize([("a", 1), ("b", 4)])
+y = spark.sparkContext.parallelize([("a", 2)])
+print([(x, tuple(map(list, y))) for x, y in sorted(list(x.cogroup(y).collect()))])
