@@ -1,0 +1,7 @@
+from pyspark import SparkContext, SparkConf, rdd, rddsampler, RDD
+
+conf = SparkConf().setAppName("pysparktest").setMaster("local[*]")
+sc = SparkContext(conf=conf)
+
+test = sc.parallelize([1, 1, 2, 3])
+print(test.union(test).collect())
