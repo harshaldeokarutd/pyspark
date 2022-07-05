@@ -108,3 +108,7 @@ Actions :
 
 <img width="91" alt="take" src="https://user-images.githubusercontent.com/92963066/177427878-57105e5d-d890-4ef0-95a3-cfcd061a9c2a.png">
 
+9. foreach :
+
+<img width="90" alt="foreach" src="https://user-images.githubusercontent.com/92963066/177428331-bb7c338e-1cf4-4c8d-9f1d-5b74513701ce.png">
+
