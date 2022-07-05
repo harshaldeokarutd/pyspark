@@ -56,5 +56,10 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="255" alt="coalesce" src="https://user-images.githubusercontent.com/92963066/177328028-27d42478-19d2-4f53-873e-228397866cda.png">
 
-15.
+15. cogroup :
+
+<img width="363" alt="cogroup" src="https://user-images.githubusercontent.com/92963066/177328992-a641225c-649c-4179-bc78-5f67c1e55071.png">
+
+16. 
+
 
