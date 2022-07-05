@@ -74,3 +74,28 @@ Transformations :
 
 <img width="250" alt="pipe" src="https://user-images.githubusercontent.com/92963066/177341362-2de67df3-0f10-41c3-856d-2a07ea31c523.png">
 
+Actions :
+
+1. Count :
+
+<img width="214" alt="count1" src="https://user-images.githubusercontent.com/92963066/177370356-f7ade70e-cf13-49cb-bed1-6c40e67b0b0f.png">
+
+2. first :
+
+<img width="122" alt="first" src="https://user-images.githubusercontent.com/92963066/177370717-b25b22a0-de9c-48eb-ba16-b5862a34df07.png">
+
+3. CountByKey :
+
+<img width="255" alt="CountByKey" src="https://user-images.githubusercontent.com/92963066/177370900-a93386b4-6c90-44ec-a63a-a583c2cdef93.png">
+
+4. takeSample :
+
+<img width="178" alt="takeSample" src="https://user-images.githubusercontent.com/92963066/177371095-c0317976-ec4c-41a1-85cf-7ac81065017b.png">
+
+5. takeOrdered :
+
+<img width="238" alt="takeOrdered" src="https://user-images.githubusercontent.com/92963066/177371194-2815529c-681a-4ee8-a568-810db8a08167.png">
+
+
+
+
