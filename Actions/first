@@ -1,0 +1,8 @@
+from pyspark.sql import SparkSession
+from operator import add
+
+spark = SparkSession.builder.master("local[1]") \
+    .appName('SparkByExamples.com') \
+    .getOrCreate()
+
+print(spark.sparkContext.parallelize([2, 3, 4]).first())
