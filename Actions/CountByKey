@@ -1,0 +1,9 @@
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.master("local[1]") \
+    .appName('SparkByExamples.com') \
+    .getOrCreate()
+
+
+rdd = spark.sparkContext.parallelize([("a", 1), ("b", 1), ("a", 1)])
+print(sorted(rdd.countByKey().items()))
