@@ -1,0 +1,10 @@
+from pyspark.sql import SparkSession
+from tempfile import NamedTemporaryFile
+
+spark = SparkSession.builder.master("local[1]") \
+    .appName('SparkByExamples.com') \
+    .getOrCreate()
+
+tempFile = NamedTemporaryFile(delete=True)
+tempFile.close()
+spark.sparkContext.parallelize(range(10)).saveAsTextFile(tempFile.name)
