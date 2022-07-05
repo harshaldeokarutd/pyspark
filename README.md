@@ -48,5 +48,9 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="147" alt="sample" src="https://user-images.githubusercontent.com/92963066/176976406-d1a0ff7e-dbe9-4743-abaf-99b4ca6ef92f.png">
 
+13. cartesian :
+
+<img width="430" alt="cartesian" src="https://user-images.githubusercontent.com/92963066/177326837-4bd90649-0c85-4f1f-939f-e126b404e160.png">
+
 
 
