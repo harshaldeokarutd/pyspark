@@ -96,6 +96,9 @@ Actions :
 
 <img width="238" alt="takeOrdered" src="https://user-images.githubusercontent.com/92963066/177371194-2815529c-681a-4ee8-a568-810db8a08167.png">
 
+6. reduce :
+
+<img width="130" alt="reduce" src="https://user-images.githubusercontent.com/92963066/177426540-f18534dc-8c26-45e5-8d96-a92456c7cc31.png">
 
 
 
