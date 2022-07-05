@@ -1,6 +1,8 @@
 # pyspark
 List of some of the Pyspark Transformations and actions:
 
+Transformations :
+
 1. Map :
 <img width="443" alt="image" src="https://user-images.githubusercontent.com/92963066/176973953-3f50c17f-07d2-4c0f-8122-edc798dda44b.png">
 
@@ -71,5 +73,4 @@ List of some of the Pyspark Transformations and actions:
 18. pipe
 
 <img width="250" alt="pipe" src="https://user-images.githubusercontent.com/92963066/177341362-2de67df3-0f10-41c3-856d-2a07ea31c523.png">
-
 
