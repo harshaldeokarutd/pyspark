@@ -104,4 +104,7 @@ Actions :
 
 <img width="1256" alt="collect" src="https://user-images.githubusercontent.com/92963066/177427333-c84bed0a-ff40-49fd-bf84-27c018f40f24.png">
 
+8. take :
+
+<img width="91" alt="take" src="https://user-images.githubusercontent.com/92963066/177427878-57105e5d-d890-4ef0-95a3-cfcd061a9c2a.png">
 
