@@ -68,5 +68,8 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="261" alt="mapPartitionWithIndex" src="https://user-images.githubusercontent.com/92963066/177337047-54470cd4-9687-46e4-b626-b28fe31e61f9.png">
 
-18. 
+18. pipe
+
+<img width="250" alt="pipe" src="https://user-images.githubusercontent.com/92963066/177341362-2de67df3-0f10-41c3-856d-2a07ea31c523.png">
+
 
