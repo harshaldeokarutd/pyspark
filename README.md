@@ -60,6 +60,9 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="363" alt="cogroup" src="https://user-images.githubusercontent.com/92963066/177328992-a641225c-649c-4179-bc78-5f67c1e55071.png">
 
-16. 
+16. join :
+
+<img width="499" alt="join" src="https://user-images.githubusercontent.com/92963066/177329746-9f9aebff-08d8-45c5-ba5e-be8117e5c0d6.png">
+
 
 
