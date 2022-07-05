@@ -1,0 +1,9 @@
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.master("local[1]") \
+    .appName('SparkByExamples.com') \
+    .getOrCreate()
+
+rdd = spark.sparkContext.parallelize(range(0, 10))
+print(len(rdd.takeSample(False, 5, 2)))
+
