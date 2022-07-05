@@ -100,5 +100,8 @@ Actions :
 
 <img width="130" alt="reduce" src="https://user-images.githubusercontent.com/92963066/177426540-f18534dc-8c26-45e5-8d96-a92456c7cc31.png">
 
+7. collect :
+
+<img width="1256" alt="collect" src="https://user-images.githubusercontent.com/92963066/177427333-c84bed0a-ff40-49fd-bf84-27c018f40f24.png">
 
 
