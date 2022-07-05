@@ -52,5 +52,9 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="430" alt="cartesian" src="https://user-images.githubusercontent.com/92963066/177326837-4bd90649-0c85-4f1f-939f-e126b404e160.png">
 
+14. coalesce :
 
+<img width="255" alt="coalesce" src="https://user-images.githubusercontent.com/92963066/177328028-27d42478-19d2-4f53-873e-228397866cda.png">
+
+15.
 
