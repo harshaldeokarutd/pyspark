@@ -1,0 +1,10 @@
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.master("local[1]") \
+    .appName('SparkByExamples.com') \
+    .getOrCreate()
+
+
+def f(x): print(x)
+
+spark.sparkContext.parallelize([1, 2, 3, 4, 5]).foreach(f)
