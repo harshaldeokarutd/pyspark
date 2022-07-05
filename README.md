@@ -64,5 +64,9 @@ List of some of the Pyspark Transformations and actions:
 
 <img width="499" alt="join" src="https://user-images.githubusercontent.com/92963066/177329746-9f9aebff-08d8-45c5-ba5e-be8117e5c0d6.png">
 
+17. mapPartitionWithIndex :
 
+<img width="261" alt="mapPartitionWithIndex" src="https://user-images.githubusercontent.com/92963066/177337047-54470cd4-9687-46e4-b626-b28fe31e61f9.png">
+
+18. 
 
